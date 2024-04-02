@@ -41,9 +41,9 @@ public class JobRestController {
 		return service.postDesc(postDesc);
 	}
 	
-	@GetMapping("/jobPosts/desc1/{postDesc1}")
-	public List<JobPost> findPostDesc1(@PathVariable String postDesc1){
-		return service.postDesc1(postDesc1);
+	@GetMapping("/jobPosts/desc1/{postDesc2}")
+	public List<JobPost> findPostDesc1(@PathVariable String postDesc2){
+		return service.postDesc1(postDesc2);
 	}
 	
 	@PostMapping("/jobPosts")

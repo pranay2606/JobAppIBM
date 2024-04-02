@@ -50,6 +50,7 @@ public class JobController {
 	
 //	@GetMapping("/jobPosts")
 //	@ResponseBody
+	// welcome
 //	public List<JobPost> viewJobs() {
 //		return service.getJobs();
 //	}
